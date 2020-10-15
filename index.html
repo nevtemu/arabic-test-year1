@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Translation test for Arabic practicing. This version is for year 1. Answers in English transcription and randomly selected from word pool.">
+	<meta name="keywords" content="test, words, Arabic">
+	<meta name="author" content="Artem Soroka">
+	<!-- Styles -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="../src/index/uae-icon.png"/>	
+	<!-- Scripts -->
+	<script type="module" src="./script.js" defer></script>
+	<title>Arabic test - Year 1</title>
+</head>
+
+<body>
+	<header>
+	<!-- Placeholder -->
+	</header>
+	<main>
+		<div class="upper-left">
+			<img id="picture"/>
+			<div id="question" class="question"></div>
+			<input type="button" value="OK" onclick="checkAnswer()" class="button">
+		</div>
+		<div class="upper-right">
+			<ul class="answerOptions">		
+				<li><input type="radio" name="answers" id="answer1"><label for="answer1" id="answerLabel0">1</label><div class="radio-circle"></div></li>
+				<li><input type="radio" name="answers" id="answer2"><label for="answer2" id="answerLabel1">2</label><div class="radio-circle"></div></li>
+				<li><input type="radio" name="answers" id="answer3"><label for="answer3" id="answerLabel2">3</label><div class="radio-circle"></div></li>
+				<li><input type="radio" name="answers" id="answer4"><label for="answer4" id="answerLabel3">4</label><div class="radio-circle"></div></li>
+				<li><input type="radio" name="answers" id="answer5"><label for="answer5" id="answerLabel4">3</label><div class="radio-circle"></div></li>
+				<li><input type="radio" name="answers" id="answer6"><label for="answer6" id="answerLabel5">4</label><div class="radio-circle"></div></li>
+			</ul>
+		</div>	
+		<div class="bottom">
+			<div id="totallyAnswered">Answered questions: 0 </div>
+			<div id="correctAnswered">Correct answers: 0% </div>
+			<div class="mistakes">Mistakes:</div>
+			<div id="textMistakes" class="mistakes"></div>
+		</div>
+	</main>
+	<footer>
+	<!-- Placeholder -->
+	</footer>
+</body>
+
+</html>
