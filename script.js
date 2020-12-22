@@ -21,7 +21,6 @@ const askQuestion = () => {
   previousQuestions.push(questionIndex);
   previousQuestions.shift();
   document.getElementById("question").innerHTML = question;
-  // document.getElementById("picture").src = "snake.jpg";
   document.getElementById("picture").src = "../src/ara/" + question.toString().toLowerCase() + ".jpg";
   let radios = document.getElementsByName("answers"); //reset radio buttons
   for (let i = 0; i < radios.length; i++) {
@@ -58,4 +57,3 @@ const checkAnswer = () => {
   }
 }
 askQuestion();
-
